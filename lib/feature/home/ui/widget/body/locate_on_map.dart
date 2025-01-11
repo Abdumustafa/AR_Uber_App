@@ -1,3 +1,4 @@
+import 'package:ar/core/helpers/spacing.dart';
 import 'package:ar/core/theaming/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -8,14 +9,14 @@ class LocateOnMap extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(top: 20.0.h, left: 16.w, right: 16.w),
+      padding: EdgeInsets.only(top: 15.0.h, left: 16.w, right: 16.w),
       child: Container(
         height: 130.h,
         decoration: BoxDecoration(
           color: Colors.grey[200],
           borderRadius: BorderRadius.circular(20.w),
         ),
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        padding: EdgeInsets.symmetric(horizontal: 16.h, vertical: 8.h),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
@@ -26,7 +27,7 @@ class LocateOnMap extends StatelessWidget {
                 style: TextStyles.font16darkBold,
               ),
             ),
-            SizedBox(height: 10.h),
+            verticalSpace(10),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [

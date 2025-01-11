@@ -53,8 +53,23 @@ class TextStyles {
     color: ColorsManager.black,
   );
   static TextStyle font9darkBold = TextStyle(
-    fontSize: 9.sp,
+    fontSize: 12.sp,
     fontWeight: FontWeightHelper.bold,
     color: ColorsManager.black,
   );
+
+   static TextStyle font16whaiteBold = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeightHelper.bold,
+    color: ColorsManager.whaite,
+  );
+   static TextStyle font22blackmedium = TextStyle(
+    fontSize: 22.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: ColorsManager.black,
+  );
 }
+
+
+
+

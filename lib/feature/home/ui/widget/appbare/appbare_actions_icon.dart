@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 class AppbareActionsIcon extends StatelessWidget {
   const AppbareActionsIcon({super.key});
+  
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +14,9 @@ class AppbareActionsIcon extends StatelessWidget {
         ),
         elevation: WidgetStatePropertyAll(0),
       ),
-      onPressed: () {},
+      onPressed: () {
+
+      },
       child: Text(
         'Pay',
         style: TextStyles.font24BlackBold,

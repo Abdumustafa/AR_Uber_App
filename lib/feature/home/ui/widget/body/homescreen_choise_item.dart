@@ -1,3 +1,4 @@
+import 'package:ar/core/helpers/spacing.dart';
 import 'package:ar/core/theaming/colors.dart';
 import 'package:ar/core/theaming/styles.dart';
 import 'package:ar/feature/home/data/home_choise_item_model.dart';
@@ -32,7 +33,7 @@ class HomeScreenChoiseItem extends StatelessWidget {
                 color: homeChoiseItemModel.iconColor ?? ColorsManager.whaite,
                 size: homeChoiseItemModel.iconSize ?? 30.sp),
           ),
-          SizedBox(height: 8.h),
+          verticalSpace(8),
           Text(homeChoiseItemModel.label!, style: TextStyles.font9darkBold),
         ],
       ),
