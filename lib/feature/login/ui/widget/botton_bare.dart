@@ -1,7 +1,9 @@
+import 'package:ar/core/helpers/extenstions.dart';
 import 'package:ar/core/helpers/spacing.dart';
+import 'package:ar/core/routing/routes.dart';
 import 'package:ar/core/theaming/colors.dart';
 import 'package:ar/core/theaming/styles.dart';
-import 'package:ar/core/widget/app_text_buttom.dart';
+import 'package:ar/core/widget/buttom_app.dart';
 import 'package:ar/feature/login/data/model/outbuttom_model.dart';
 import 'package:ar/feature/login/ui/widget/welcome_text.dart';
 import 'package:flutter/material.dart';
@@ -39,7 +41,11 @@ class BottomBare extends StatelessWidget {
                   iconSize: 20,
                   buttonText: 'Continue using Google ',
                   textStyle: TextStyles.font24BlackBold,
-                  onPressed: () {},
+                  onPressed: () {
+                    context.pop();
+
+                    context.pushName(Routes.homeScreen);
+                  },
                 ),
               ),
             ),
@@ -49,7 +55,10 @@ class BottomBare extends StatelessWidget {
                 model: AppTextButtonModel(
                   buttonText: 'Continue using number',
                   textStyle: TextStyles.font24BlackBold,
-                  onPressed: () {},
+                  onPressed: () {
+                    context.pop();
+                    context.pushName(Routes.homeScreen);
+                  },
                 ),
               ),
             ),

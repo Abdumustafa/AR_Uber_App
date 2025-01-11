@@ -23,7 +23,7 @@ import 'package:flutter/material.dart';
     required this.buttonText,
     required this.textStyle,
     required this.onPressed,
-    this.icon,
+     this.icon,
     this.iconColor,
     this.iconSize,
   });

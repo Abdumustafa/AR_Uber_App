@@ -1,4 +1,5 @@
 import 'package:ar/core/routing/routes.dart';
+import 'package:ar/feature/home/ui/screen/home_screen.dart';
 import 'package:ar/feature/login/ui/screen/login_screen.dart';
 import 'package:flutter/material.dart'; 
 
@@ -12,6 +13,14 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (_) => const LoginScreen(),
         );
+        case Routes.homeScreen:
+        return MaterialPageRoute(
+          builder: (_) => const HomeScreen(),
+        );
+        
+        
+
+        
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(

@@ -9,8 +9,8 @@ class AppTextButton extends StatelessWidget {
   final AppTextButtonModel model;
   const AppTextButton({
     super.key,
-    required this.model, 
-    });
+    required this.model,
+  });
 
   @override
   Widget build(BuildContext context) {
