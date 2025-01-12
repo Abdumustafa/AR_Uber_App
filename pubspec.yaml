@@ -54,6 +54,8 @@ dependencies:
   flutter_svg_provider: ^1.0.7
   flutter_native_splash: ^2.4.4
   font_awesome_flutter: ^10.8.0
+  #flutter multiplatform navigation sidebar / side navigationbar / drawer widget
+  sidebarx: ^0.17.1
  
 
 dev_dependencies:

@@ -14,13 +14,13 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (_) => const LoginScreen(),
         );
-        case Routes.payScreen:
+      case Routes.payScreen:
         return MaterialPageRoute(
           builder: (_) => const PayScreen(),
         );
       case Routes.test:
         return MaterialPageRoute(
-          builder: (_) => const test(),
+          builder: (_) => const Test(),
         );
       case Routes.homeScreen:
         return MaterialPageRoute(

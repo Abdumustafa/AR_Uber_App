@@ -1,5 +1,4 @@
 import 'package:ar/feature/home/ui/widget/appbare/appbare_text_title.dart';
-import 'package:ar/core/widget/app_bare_menu_icon.dart';
 import 'package:ar/feature/home/ui/widget/appbare/appbare_actions_icon.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +11,6 @@ class AppbareWidget extends StatelessWidget implements PreferredSizeWidget {
       backgroundColor: Colors.white,
       elevation: 0,
       centerTitle: true,
-      leading: AppBareMenuIcon(),
       title: AppbareTextTitle(),
       actions: [
         AppbareActionsIcon(),

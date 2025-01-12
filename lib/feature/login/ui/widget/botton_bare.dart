@@ -44,7 +44,7 @@ class BottomBare extends StatelessWidget {
                   onPressed: () {
                     context.pop();
 
-                    context.pushName(Routes.homeScreen);
+                    context.pushReplacementNamed(Routes.homeScreen);
                   },
                 ),
               ),

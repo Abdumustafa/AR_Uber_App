@@ -1,7 +1,7 @@
 import 'package:ar/core/theaming/colors.dart';
 import 'package:ar/core/theaming/styles.dart';
+import 'package:ar/core/widget/app_bare_drawer.dart';
 
-import 'package:ar/core/widget/app_bare_menu_icon.dart';
 import 'package:ar/feature/pay/ui/widget/add_funds_image.dart';
 import 'package:ar/feature/pay/ui/widget/money_buttom_send_request.dart';
 import 'package:ar/feature/pay/ui/widget/paid_and_scaan_items.dart';
@@ -21,10 +21,8 @@ class PayScreen extends StatelessWidget {
           style: TextStyles.font22blackbold,
         ),
         centerTitle: true,
-        actions: [
-          AppBareMenuIcon(),
-        ],
       ),
+      endDrawer: AppBareDrawer(),
       body: Container(
         color: ColorsManager.whaite,
         child: Column(
