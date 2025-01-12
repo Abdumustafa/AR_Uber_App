@@ -31,6 +31,7 @@ class TextStyles {
     fontWeight: FontWeightHelper.bold,
     color: ColorsManager.darkBlue,
   );
+
   static TextStyle font75darkredBold = TextStyle(
     fontSize: 75.sp,
     fontWeight: FontWeightHelper.bold,
@@ -46,6 +47,16 @@ class TextStyles {
     fontSize: 30.sp,
     fontWeight: FontWeightHelper.bold,
     color: ColorsManager.darkBlue,
+  );
+  static TextStyle font30whaiteBold = TextStyle(
+    fontSize: 30.sp,
+    fontWeight: FontWeightHelper.bold,
+    color: ColorsManager.whaite,
+  );
+  static TextStyle font20whaiteBold = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: ColorsManager.gray,
   );
   static TextStyle font16darkBold = TextStyle(
     fontSize: 16.sp,
@@ -68,4 +79,37 @@ class TextStyles {
     fontWeight: FontWeightHelper.medium,
     color: ColorsManager.black,
   );
+  static TextStyle font18blackmedium = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: ColorsManager.black,
+  );
+  static TextStyle font14backmedium = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: ColorsManager.black,
+  );
+  static TextStyle font12blackbold = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeightHelper.bold,
+    color: ColorsManager.black,
+  );
+  static TextStyle font22blackbold = TextStyle(
+    fontSize: 22.sp,
+    fontWeight: FontWeightHelper.bold,
+    color: ColorsManager.black,
+  );
+  static TextStyle font18blackbold = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.bold,
+    color: ColorsManager.black,
+  );
+  static TextStyle font30blackbold = TextStyle(
+    fontSize: 30.sp,
+    fontWeight: FontWeightHelper.bold,
+    color: Color(
+              0xff5A5D5C,
+            ),
+  );
+  
 }

@@ -2,8 +2,8 @@ import 'package:ar/core/theaming/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class LeadingIcon extends StatelessWidget {
-  const LeadingIcon({super.key});
+class AppBareMenuIcon extends StatelessWidget {
+  const AppBareMenuIcon({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class LeadingIcon extends StatelessWidget {
       padding: EdgeInsets.all(8.0.h),
       child: Container(
         decoration: BoxDecoration(
-          color: ColorsManager.lightorange,
+          color: ColorsManager.orange,
           borderRadius: BorderRadius.circular(30.w),
         ),
         child: IconButton(

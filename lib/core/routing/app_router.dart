@@ -1,6 +1,7 @@
 import 'package:ar/core/routing/routes.dart';
 import 'package:ar/feature/home/ui/screen/home_screen.dart';
 import 'package:ar/feature/login/ui/screen/login_screen.dart';
+import 'package:ar/feature/pay/ui/screen/pay_screen.dart';
 import 'package:ar/test.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +13,10 @@ class AppRouter {
       case Routes.loginScreen:
         return MaterialPageRoute(
           builder: (_) => const LoginScreen(),
+        );
+        case Routes.payScreen:
+        return MaterialPageRoute(
+          builder: (_) => const PayScreen(),
         );
       case Routes.test:
         return MaterialPageRoute(

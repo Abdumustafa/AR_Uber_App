@@ -1,5 +1,5 @@
 import 'package:ar/core/theaming/colors.dart';
-import 'package:ar/feature/login/data/model/outbuttom_model.dart';
+import 'package:ar/core/widget/app_outlinebuttom/outline_buttom_model.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -26,8 +26,8 @@ class AppTextButton extends StatelessWidget {
         ),
         padding: WidgetStateProperty.all<EdgeInsets>(
           EdgeInsets.symmetric(
-            horizontal: model.horizontalPadding?.w ?? 12.w,
-            vertical: model.verticalPadding?.h ?? 14.h,
+            horizontal: model.horizontalPadding?.w ?? 10.w,
+            vertical: model.verticalPadding?.h ?? 10.h,
           ),
         ),
         fixedSize: WidgetStateProperty.all(
@@ -39,9 +39,11 @@ class AppTextButton extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(
-            model.buttonText,
-            style: model.textStyle,
+          Center(
+            child: Text(
+              model.buttonText,
+              style: model.textStyle,
+            ),
           ),
           FaIcon(model.icon, color: model.iconColor, size: model.iconSize)
         ],
