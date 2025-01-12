@@ -1,4 +1,6 @@
-![WhatsApp Image 2025-01-12 at 10 32 42 PM](https://github.com/user-attachments/assets/6259c968-f2f1-4d03-be42-d964030c11b1)# AR_Uber
+
+![WhatsApp Image 2025-01-12 at 10 32 42 PM (1)](https://github.com/user-attachments/assets/591c8940-a947-4fb5-b1aa-39908974961b)
+# AR_Uber
 
 AR_Uber is a Flutter-based mobile application designed to provide an efficient and user-friendly ride-sharing experience. The app combines modern UI/UX design with powerful functionalities to connect drivers and riders seamlessly.
 
@@ -52,9 +54,6 @@ AR_Uber is a Flutter-based mobile application designed to provide an efficient a
 ![WhatsApp Image 2025-01-12 at 10 32 42 PM (2)](https://github.com/user-attachments/assets/665cab99-fe4d-473b-9982-c405275fd26a)
 ![WhatsApp Image 2025-01-12 at 10 32 42 PM (3)](https://github.com/user-attachments/assets/df03e3bd-58c7-4250-abbe-f25d1afc1adc)
 ![WhatsApp Image 2025-01-12 at 10 32 43 PM (1)](https://github.com/user-attachments/assets/77762f91-a7c6-4c68-8237-e4cdb33352e9)
-
-
-
 ![WhatsApp Image 2025-01-12 at 10 32 42 PM (1)](https://github.com/user-attachments/assets/591c8940-a947-4fb5-b1aa-39908974961b)
 
 
