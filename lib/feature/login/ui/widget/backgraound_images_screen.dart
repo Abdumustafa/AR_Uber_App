@@ -6,10 +6,10 @@ class BackgraoundImagesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned.fill(
-            child: Image.asset(
-              'assets/image/login.jpg',
-              fit: BoxFit.cover,
-            ),
-          );
+      child: Image.asset(
+        'assets/image/login.jpeg',
+        fit: BoxFit.cover,
+      ),
+    );
   }
 }

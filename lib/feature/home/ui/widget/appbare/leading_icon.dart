@@ -11,7 +11,7 @@ class LeadingIcon extends StatelessWidget {
       padding: EdgeInsets.all(8.0.h),
       child: Container(
         decoration: BoxDecoration(
-          color: ColorsManager.veryLightGray,
+          color: ColorsManager.lightorange,
           borderRadius: BorderRadius.circular(30.w),
         ),
         child: IconButton(

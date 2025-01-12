@@ -18,7 +18,7 @@ class HomeScreenChoiseItem extends StatelessWidget {
       height: homeChoiseItemModel.itemWidth?.h ?? 110.h,
       width: homeChoiseItemModel.itemHeight?.w ?? 110.w,
       decoration: BoxDecoration(
-        color: homeChoiseItemModel.itemColor ?? ColorsManager.veryLightGray,
+        color: homeChoiseItemModel.itemColor ?? ColorsManager.lightorange,
         borderRadius:
             BorderRadius.circular(homeChoiseItemModel.itemBorderRadius ?? 5.0),
       ),
@@ -34,7 +34,7 @@ class HomeScreenChoiseItem extends StatelessWidget {
                 size: homeChoiseItemModel.iconSize ?? 30.sp),
           ),
           verticalSpace(8),
-          Text(homeChoiseItemModel.label!, style: TextStyles.font9darkBold),
+          Text(homeChoiseItemModel.label!, style: TextStyles.font12darkBold),
         ],
       ),
     );

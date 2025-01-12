@@ -1,4 +1,5 @@
 import 'package:ar/core/helpers/spacing.dart';
+import 'package:ar/core/theaming/colors.dart';
 import 'package:ar/core/theaming/styles.dart';
 import 'package:ar/feature/home/data/home_choise_item_model.dart';
 import 'package:ar/feature/home/ui/widget/appbare/appbare.dart';
@@ -28,16 +29,24 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   HomeScreenChoiseItem(
                     homeChoiseItemModel: HomeChoiseItemModel(
+                        circleAvatarBackgroundColor: ColorsManager.orange,
+                        itemColor: ColorsManager.lightorange,
                         icon: Icons.account_balance_wallet,
                         label: 'Request Money'),
                   ),
                   HomeScreenChoiseItem(
                     homeChoiseItemModel: HomeChoiseItemModel(
-                        icon: Icons.attach_money, label: 'Pay Someone'),
+                        circleAvatarBackgroundColor: ColorsManager.orange,
+                        itemColor: ColorsManager.lightorange,
+                        icon: Icons.attach_money,
+                        label: 'Pay Someone'),
                   ),
                   HomeScreenChoiseItem(
                     homeChoiseItemModel: HomeChoiseItemModel(
-                        icon: Icons.directions_car, label: 'Transport'),
+                        circleAvatarBackgroundColor: ColorsManager.orange,
+                        itemColor: ColorsManager.lightorange,
+                        icon: Icons.directions_car,
+                        label: 'Transport'),
                   ),
                 ],
               ),
@@ -63,12 +72,12 @@ class HomeScreen extends StatelessWidget {
                       children: [
                         MoreIconHomeScreen(
                           itemText: 'Send or get \n credit instantly',
-                          itemImage: 'assets/image/homeitem1.jpeg',
+                          itemImage: 'assets/image/homeitemimage1.jpeg',
                         ),
                         verticalSpace(10),
                         MoreIconHomeScreen(
                           itemText: 'Send or get \n credit instantly',
-                          itemImage: 'assets/image/homeitem2.jpeg',
+                          itemImage: 'assets/image/homeitemimage3.jpeg',
                         ),
                       ],
                     ),
@@ -77,12 +86,12 @@ class HomeScreen extends StatelessWidget {
                       children: [
                         MoreIconHomeScreen(
                           itemText: 'Have a nice trip',
-                          itemImage: 'assets/image/homeitem3.jpeg',
+                          itemImage: 'assets/image/homeitemimage2.jpeg',
                         ),
                         verticalSpace(10),
                         MoreIconHomeScreen(
                           itemText: 'Here is your comfort',
-                          itemImage: 'assets/image/homeitem4.jpeg',
+                          itemImage: 'assets/image/homeitemimage4.jpeg',
                         ),
                       ],
                     ),

@@ -1,4 +1,5 @@
 import 'package:ar/core/helpers/spacing.dart';
+import 'package:ar/core/theaming/colors.dart';
 import 'package:ar/core/theaming/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -13,7 +14,7 @@ class LocateOnMap extends StatelessWidget {
       child: Container(
         height: 130.h,
         decoration: BoxDecoration(
-          color: Colors.grey[200],
+          color: ColorsManager.lightorange,
           borderRadius: BorderRadius.circular(20.w),
         ),
         padding: EdgeInsets.symmetric(horizontal: 16.h, vertical: 8.h),
