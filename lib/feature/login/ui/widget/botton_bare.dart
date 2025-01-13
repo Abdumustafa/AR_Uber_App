@@ -34,7 +34,7 @@ class BottomBare extends StatelessWidget {
             verticalSpace(10),
             Padding(
               padding: EdgeInsets.all(8.0.r),
-              child: AppTextButton(
+              child: AppTextOutlineButton(
                 model: AppTextButtonModel(
                   icon: FontAwesomeIcons.google,
                   iconColor: ColorsManager.darkred,
@@ -51,7 +51,7 @@ class BottomBare extends StatelessWidget {
             ),
             Padding(
               padding: EdgeInsets.all(8.0.r),
-              child: AppTextButton(
+              child: AppTextOutlineButton(
                 model: AppTextButtonModel(
                   buttonText: 'Continue using number',
                   textStyle: TextStyles.font24BlackBold,

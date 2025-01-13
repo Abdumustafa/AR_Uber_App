@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class AppTextButton extends StatelessWidget {
+class AppTextOutlineButton extends StatelessWidget {
   final AppTextButtonModel model;
-  const AppTextButton({
+  const AppTextOutlineButton({
     super.key,
     required this.model,
   });
@@ -32,20 +32,18 @@ class AppTextButton extends StatelessWidget {
         ),
         fixedSize: WidgetStateProperty.all(
           Size(model.buttonWidth?.w ?? double.maxFinite,
-              model.buttonHeight ?? 50.h),
+              model.buttonHeight?.h ?? 50.h),
         ),
       ),
       onPressed: model.onPressed,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Center(
-            child: Text(
-              model.buttonText,
-              style: model.textStyle,
-            ),
+          Text(
+            model.buttonText,
+            style: model.textStyle,
           ),
-          FaIcon(model.icon, color: model.iconColor, size: model.iconSize)
+          FaIcon(model.icon, color: model.iconColor, size: model.iconSize?.sp)
         ],
       ),
     );
